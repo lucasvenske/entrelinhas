@@ -57,7 +57,7 @@
     content: "";
     width: 1050px;
     height: 20px;
-    background-color: white;
+    background-color: var(--color);
     position: absolute;
     bottom: -120%;
     transform: rotate(44deg);
@@ -67,7 +67,7 @@
     content: "";
     width: 1050px;
     height: 20px;
-    background-color: white;
+    background-color: var(--color);
     position: absolute;
     bottom: -120%;
     transform: rotate(-44deg);
