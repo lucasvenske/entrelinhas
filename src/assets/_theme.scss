@@ -21,6 +21,10 @@ main {
     margin-bottom: 8rem;
 }
 
+.mt-10 {
+    margin-top: 10rem;
+}
+
 .mt-20 {
     margin-top: 20rem;
 }
@@ -30,7 +34,7 @@ main {
 }
 
 .fs-a1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .h-fit-content {
@@ -39,6 +43,14 @@ main {
 
 .mh-550 {
     max-height: 550px;
+}
+
+.h-600 {
+    height: 600px;
+}
+
+.w-690 {
+    width: 490px;
 }
 
 .bd-theme.border-15 {
@@ -51,6 +63,28 @@ main {
 
 .h-1500 {
     height: 1500px;
+}
+
+.ps-8 {
+    padding-left: 8rem;
+}
+
+.fw-medium {
+
+    font-weight: 500;
+}
+
+.absolute-img-vinil {
+    position: absolute;
+    width: 600px;
+    right: 11%;
+    top: -280px;
+}
+
+
+.header-item {
+    border-bottom: 15px solid var(--color);
+    font-weight: 500;
 }
 
 //Reset Css

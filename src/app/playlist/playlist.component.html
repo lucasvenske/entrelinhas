@@ -1,0 +1,314 @@
+<main>
+    <div class="my-5 d-flex position-relative">
+        <p [routerLink]="['/']" class="ff-az fs-2 header-item bd-theme text-end fw-500 ps-8 pointer"
+            [class.fn-color-green]="pagina == 3 || pagina == 4" [class.fn-color-blue]="pagina == 1 || pagina == 2"
+            [class.border-color-green]="pagina == 3 || pagina == 4"
+            [class.border-color-blue]="pagina == 1 || pagina == 2">
+            VOLTAR</p>
+
+        <img class="absolute-img-vinil" src="../../assets/img/vinil-verde-listrado.png" alt="">
+    </div>
+    <div class="container-sm mb-8">
+        @if (pagina == 1 || pagina == 3) {
+        <h1 class="col-12 ff-az fs-a1 mb-8" [class.fn-color-green]="pagina == 3" [class.fn-color-blue]="pagina == 1">
+            PLAYLIST<br>
+            MÚSICAS CENSURADAS
+        </h1>
+        }@else if (pagina == 2 || pagina == 4) {
+        <h1 class="col-12 ff-az fs-a1 mb-8" [class.fn-color-green]="pagina == 4" [class.fn-color-blue]="pagina == 2">
+            PLAYLIST MÚSICAS<br>
+            NÃO CENSURADAS
+        </h1>
+        }
+
+        @if (pagina == 1) {
+        <div class="row gx-5 mb-8">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/censurada-pt-1.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/censurada-pt-2.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="row gx-5 mb-8">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/censurada-pt-3.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/censurada-pt-4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="row gx-5">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/censurada-pt-5.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        }
+
+        @if (pagina == 2) {
+        <div class="row gx-5 mb-8">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/nao-censurada-pt-1.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/nao-censurada-pt-2.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="row gx-5 mb-8">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/nao-censurada-pt-3.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/nao-censurada-pt-4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="row gx-5">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/naocensurada-pt-5.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        }
+
+        @if (pagina == 3) {
+        <div class="row gx-5 mb-8">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/censurada-br-1.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/censurada-br-2.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="row gx-5 mb-8">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/censurada-br-3.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/censurada-br-4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="row gx-5">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/censurada-br-5.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        }
+
+        @if (pagina == 4) {
+        <div class="row gx-5 mb-8">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/nao-censuradas-1.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/nao-censuradas-2.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="row gx-5">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/nao-censuradas-3.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden pointer">
+                    <img class="w-100 object-fit-cover" src="../../assets/img/nao-censuradas-4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        }
+        <!-- <div class="row gx-5 mb-8">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden">
+                    <img class="w-100 h-600 object-fit-cover" src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg"
+                        alt="">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="col-6">
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Nome:</span> Apesar de Você</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Interprete:</span> Chico Buarque</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Compositores:</span> Chico Buarque</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Data:</span> Lançada em 1970</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Metáforas utilizadas:</span></p>
+                <br>
+                <p class="ff-az fn-color fs-5">Inicialmente foi aprovada, porque parecia falar de uma relação infeliz.
+                    No entanto, não demorou muito até que as pessoas se apercebessem que era uma metáfora a criticar a
+                    ditadura e assim, apesar do seu sucesso, poucos meses após ter sido lançada, os meios de comunicação
+                    receberam uma nota oficial a proibir que passassem a música. Para que não restassem dúvidas, um
+                    grupo de militares invadiu a fábrica da editora Phillips e destruiu todas as cópias ainda em
+                    estoque. Da mesma forma, os exemplares em venda nas lojas foram recolhidos e destruídos.
+                </p>
+            </div>
+        </div>
+        <div class="row gx-5 mb-8">
+            <div class="col-6">
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Nome:</span> Apesar de Você</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Interprete:</span> Chico Buarque</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Compositores:</span> Chico Buarque</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Data:</span> Lançada em 1970</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Metáforas utilizadas:</span></p>
+                <br>
+                <p class="ff-az fn-color fs-5">Inicialmente foi aprovada, porque parecia falar de uma relação infeliz.
+                    No entanto, não demorou muito até que as pessoas se apercebessem que era uma metáfora a criticar a
+                    ditadura e assim, apesar do seu sucesso, poucos meses após ter sido lançada, os meios de comunicação
+                    receberam uma nota oficial a proibir que passassem a música. Para que não restassem dúvidas, um
+                    grupo de militares invadiu a fábrica da editora Phillips e destruiu todas as cópias ainda em
+                    estoque. Da mesma forma, os exemplares em venda nas lojas foram recolhidos e destruídos.
+                </p>
+            </div>
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden">
+                    <img class="w-100 h-600 object-fit-cover" src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg"
+                        alt="">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-5 mb-8">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden">
+                    <img class="w-100 h-600 object-fit-cover" src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg"
+                        alt="">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="col-6">
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Nome:</span> Apesar de Você</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Interprete:</span> Chico Buarque</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Compositores:</span> Chico Buarque</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Data:</span> Lançada em 1970</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Metáforas utilizadas:</span></p>
+                <br>
+                <p class="ff-az fn-color fs-5">Inicialmente foi aprovada, porque parecia falar de uma relação infeliz.
+                    No entanto, não demorou muito até que as pessoas se apercebessem que era uma metáfora a criticar a
+                    ditadura e assim, apesar do seu sucesso, poucos meses após ter sido lançada, os meios de comunicação
+                    receberam uma nota oficial a proibir que passassem a música. Para que não restassem dúvidas, um
+                    grupo de militares invadiu a fábrica da editora Phillips e destruiu todas as cópias ainda em
+                    estoque. Da mesma forma, os exemplares em venda nas lojas foram recolhidos e destruídos.
+                </p>
+            </div>
+        </div>
+        <div class="row gx-5 mb-8">
+
+            <div class="col-6">
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Nome:</span> Apesar de Você</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Interprete:</span> Chico Buarque</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Compositores:</span> Chico Buarque</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Data:</span> Lançada em 1970</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Metáforas utilizadas:</span></p>
+                <br>
+                <p class="ff-az fn-color fs-5">Inicialmente foi aprovada, porque parecia falar de uma relação infeliz.
+                    No entanto, não demorou muito até que as pessoas se apercebessem que era uma metáfora a criticar a
+                    ditadura e assim, apesar do seu sucesso, poucos meses após ter sido lançada, os meios de comunicação
+                    receberam uma nota oficial a proibir que passassem a música. Para que não restassem dúvidas, um
+                    grupo de militares invadiu a fábrica da editora Phillips e destruiu todas as cópias ainda em
+                    estoque. Da mesma forma, os exemplares em venda nas lojas foram recolhidos e destruídos.
+                </p>
+            </div>
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden">
+                    <img class="w-100 h-600 object-fit-cover" src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg"
+                        alt="">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-5">
+            <div class="col-6">
+                <div class="border-rounded rounded-5 overflow-hidden">
+                    <img class="w-100 h-600 object-fit-cover" src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg"
+                        alt="">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="col-6">
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Nome:</span> Apesar de Você</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Interprete:</span> Chico Buarque</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Compositores:</span> Chico Buarque</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Data:</span> Lançada em 1970</p>
+                <br>
+                <p class="ff-az fn-color fs-5"><span class="fw-bold">Metáforas utilizadas:</span></p>
+                <br>
+                <p class="ff-az fn-color fs-5">Inicialmente foi aprovada, porque parecia falar de uma relação infeliz.
+                    No entanto, não demorou muito até que as pessoas se apercebessem que era uma metáfora a criticar a
+                    ditadura e assim, apesar do seu sucesso, poucos meses após ter sido lançada, os meios de comunicação
+                    receberam uma nota oficial a proibir que passassem a música. Para que não restassem dúvidas, um
+                    grupo de militares invadiu a fábrica da editora Phillips e destruiu todas as cópias ainda em
+                    estoque. Da mesma forma, os exemplares em venda nas lojas foram recolhidos e destruídos.
+                </p>
+            </div>
+        </div> -->
+    </div>
+    <app-footer></app-footer>
+</main>

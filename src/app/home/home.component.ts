@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { AfterViewInit, Component, HostListener } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from '../footer/footer.component';
+import { RouterLink } from '@angular/router';
 
 interface ParallaxElement {
   element: HTMLElement | null;
@@ -15,10 +17,20 @@ interface ParallaxElement {
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, FooterComponent, RouterLink],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
-  animations: []
+  animations: [
+    trigger('translateInOut', [
+      state('in', style({ transform: 'translateY(0)' })),
+      transition('void => *', [
+        style({ transform: 'translateY(100%)' }),
+        animate(1000)
+      ]),
+      transition('* => void', [
+        animate(1000, style({ transform: 'translateY(100%)' }))
+      ])
+    ])]
 })
 export class HomeComponent {
 
@@ -37,8 +49,12 @@ export class HomeComponent {
   }
 
 
-  @HostListener('window:scroll', [])
-  onScroll(): void {
+  isVisible = false;
 
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    const offset = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    // Adjust this threshold as needed
+    this.isVisible = offset > 100;
   }
 }

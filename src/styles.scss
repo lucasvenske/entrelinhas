@@ -33,6 +33,28 @@
     border-right-color: var(--secondary-color) !important;
 }
 
+.bd-theme.border-color-blue {
+    border-top-color: #6597E4 !important;
+    border-bottom-color: #6597E4 !important;
+    border-left-color: #6597E4 !important;
+    border-right-color: #6597E4 !important;
+}
+
+.bd-theme.border-color-green {
+    border-top-color: #44D352 !important;
+    border-bottom-color: #44D352 !important;
+    border-left-color: #44D352 !important;
+    border-right-color: #44D352 !important;
+}
+
+
+.fn-color-blue {
+    color: #6597E4;
+}
+
+.fn-color-green {
+    color: #44D352;
+}
 
 .fn-color {
     color: var(--color) !important;

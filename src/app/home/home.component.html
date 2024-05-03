@@ -3,41 +3,44 @@
         <div class="theme-switcher">
             <p (click)="onThemeSwitchChange()">dark</p>
         </div>
-        <p routerLink="/teste" class="ff-az fs-2 fn-color header-item text-end fw-500 pe-5 pointer">SOBRE O
+        <p [routerLink]="['/sobre-o-projeto']" class="ff-az fs-2 fn-color header-item text-end fw-500 pe-5 pointer">
+            SOBRE O
             PROJETO</p>
     </div>
-    <div class="container">
+    <div class="container-sm">
         <h1 class="ff-bs fn-color main-title lh-base text-center">ENTRELINHAS</h1>
     </div>
 
-    <section class="h-1500">
-        <div class="container">
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-            <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
+    <section class="h-1500 main">
+        <div class="container-sm">
+            <div class="line bg-color"></div>
+            <div class="line bg-color first"></div>
+            <div class="line bg-color second"></div>
+            <div class="line bg-color third"></div>
+            <div class="line bg-color fourth"></div>
+            <div class="line bg-color fifth"></div>
+            <div class="line bg-color sixth"></div>
+            <div class="line bg-color eigth"></div>
+            <div class="line bg-color nineth"></div>
+            <div class="line bg-color ten"></div>
+            <div class="line bg-color eleven"></div>
+            <div class="line bg-color twelve"></div>
+            <div class="line bg-color thirten"></div>
+            <div class="line bg-color fourten"></div>
+            <div class="line bg-color fiften"></div>
+            <div class="line bg-color sixten"></div>
         </div>
     </section>
 
     <section class="mt-20">
-        <div class="container">
+        <div class="container-sm">
             <div class="row">
-                <h1 class="col-12 ff-az fs-a1 fn-color mb-8">A CENSURA E REPRESSÃO AOS MÚSICOS BRASILEIROS E PORTUGUESES
-                    DURANTE AS
-                    DÉCADAS DE 1960 E 1970</h1>
-                <div class="col-12 row justify-content-around">
+                <h1 class="col-12 ff-az fs-a1 fn-color mb-5">CENSURA DA MÚSICA
+                    <span class="fn-color-blue">PORTUGUESA</span> E <span class="fn-color-green">BRASILEIRA</span>
+                    NAS DÉCADAS DE 1960 E 1970
+                </h1>
+                <img class="w-100 mh-550 object-fit-cover" src="../../assets/img/censura-musica.png" alt="">
+                <!-- <div class="col-12 row justify-content-around">
                     <div class="col-6 bg-color p-4 border-rounded rounded-3 rotate-8 h-fit-content">
                         <p class="ff-az fn-secondary-color fs-5">
                             Durante as décadas de 1960 e 1970,
@@ -63,37 +66,37 @@
                         </p>
                         <p class="ff-az fn-secondary-color fs-4 text-end mt-5 pointer mb-0">CONTINUAR A LER +</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
     <section class="mt-40">
-        <div class="container">
-            <h1 class="ff-az fs-a1 fn-color mb-4">MÚSICA PORTUGUESA</h1>
-            <div class="ff-az fn-color border-top border-bottom bd-theme border-color pt-3">
-                <p class="border-top border-bottom bd-theme border-color">
+        <div class="container-sm">
+            <h1 class="ff-az fs-a1 fn-color-blue mb-4">MÚSICA PORTUGUESA</h1>
+            <div class="ff-az fn-color-blue border-top border-bottom bd-theme border-color-blue pt-3">
+                <p class="border-top border-bottom bd-theme border-color-blue">
                     Hugo Maia de Loureiro
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-blue">
                     Paco Bandeira
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-blue">
                     Tordo
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-blue">
                     Simone de Oliveira
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-blue">
                     Vieira da Silva
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-blue">
                     António Gedeão e Manuel Freire
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-blue">
                     Sergio Godinho
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-blue">
                     José Afonso
                 </p>
             </div>
@@ -101,28 +104,28 @@
     </section>
 
     <section class="mt-40">
-        <div class="container text-end">
-            <h1 class="ff-az fs-a1 fn-color mb-4">MÚSICA BRASILEIRA</h1>
-            <div class="ff-az fn-color border-top border-bottom bd-theme border-color pt-3">
-                <p class="border-top border-bottom bd-theme border-color">
+        <div class="container-sm text-end">
+            <h1 class="ff-az fs-a1 fn-color-green mb-4">MÚSICA BRASILEIRA</h1>
+            <div class="ff-az fn-color-green border-top border-bottom bd-theme border-color-green pt-3">
+                <p class="border-top border-bottom bd-theme border-color-green">
                     Chico Buarque
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-green">
                     Nara Leão
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-green">
                     Raul Seixas
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-green">
                     Elis Regina
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-green">
                     Rita Lee e Roberto de Carvalho
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-green">
                     Caetano Veloso
                 </p>
-                <p class="border-top border-bottom bd-theme border-color">
+                <p class="border-top border-bottom bd-theme border-color-green">
                     Geraldo Vandré
                 </p>
             </div>
@@ -130,7 +133,7 @@
     </section>
 
     <section class="mt-40">
-        <div class="container">
+        <div class="container-sm">
             <h1 class="ff-az fs-a1 fn-color mb-4">LOJA</h1>
             <div class="row">
                 <div class="col-12 mb-5">
@@ -160,7 +163,7 @@
                         LP<br>
                         ENTRELINHAS BR</p>
                 </div>
-                <div class="col-4 mb-5">
+                <div class="col-6 mb-5">
                     <div class="border-top bd-theme border-color py-2">
                         <img class="w-100 mh-550 object-fit-cover"
                             src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg" alt="">
@@ -169,7 +172,7 @@
                         ENTRELINHAS<br>
                         PT T-SHIRT</p>
                 </div>
-                <div class="col-4 mb-5">
+                <div class="col-6 mb-5">
                     <div class="border-top bd-theme border-color py-2">
                         <img class="w-100 mh-550 object-fit-cover"
                             src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg" alt="">
@@ -178,29 +181,9 @@
                         ENTRELINHAS<br>
                         BR T-SHIRT</p>
                 </div>
-                <div class="col-4 mb-5">
-                    <div class="border-top bd-theme border-color py-2">
-                        <img class="w-100 mh-550 object-fit-cover"
-                            src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg" alt="">
-                    </div>
-                    <p class="ff-az fn-color fs-4 text-center border-top bd-theme border-color pt-3 border-15">
-                        ENTRELINHAS<br>
-                        CARTAZ</p>
-                </div>
             </div>
         </div>
     </section>
 
-    <footer class="mt-20">
-        <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-        <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-        <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-        <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-        <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-        <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-        <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-        <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-        <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-        <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
-    </footer>
+    <app-footer></app-footer>
 </main>

@@ -1,0 +1,127 @@
+.first {
+    animation-timeline: view(block);
+    animation-name: first;
+    animation-range: entry -10% contain 40% end 100%;
+}
+
+@keyframes first {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(2px);
+    }
+}
+
+.second {
+    animation-timeline: view(block);
+    animation-name: second;
+    animation-range: entry -10% contain 40% end 100%;
+}
+
+@keyframes second {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(4px);
+    }
+}
+
+.third {
+    animation-timeline: view(block);
+    animation-name: third;
+    animation-range: entry -10% contain 40% end 100%;
+}
+
+@keyframes third {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(6px);
+    }
+}
+
+.fifth {
+    animation-timeline: view(block);
+    animation-name: fifth;
+    animation-range: entry -10% contain 40% end 100%;
+}
+
+@keyframes fifth {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(8px);
+    }
+}
+
+.first {
+    animation-timeline: view(block);
+    animation-name: first;
+    animation-range: entry -10% end 100%;
+}
+
+@keyframes first {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(2px);
+    }
+}
+
+.first {
+    animation-timeline: view(block);
+    animation-name: first;
+    animation-range: entry -10% contain 40% end 100%;
+}
+
+@keyframes first {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(2px);
+    }
+}
+
+.first {
+    animation-timeline: view(block);
+    animation-name: first;
+    animation-range: entry -10% contain 40% end 100%;
+}
+
+@keyframes first {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(2px);
+    }
+}
+
+.first {
+    animation-timeline: view(block);
+    animation-name: first;
+    animation-range: entry -10% contain 40%;
+}
+
+@keyframes first {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(2px);
+    }
+}
