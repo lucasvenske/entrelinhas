@@ -52,3 +52,24 @@
 .rotate-8 {
     transform: rotate(-6deg);
 }
+
+.line-static-right::before {
+    content: "";
+    width: 1050px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: -120%;
+    transform: rotate(44deg);
+}
+
+.line-static-left::before {
+    content: "";
+    width: 1050px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: -120%;
+    transform: rotate(-44deg);
+    right: 0;
+}
