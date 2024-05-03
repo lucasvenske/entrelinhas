@@ -19,18 +19,7 @@ interface ParallaxElement {
   standalone: true,
   imports: [CommonModule, FooterComponent, RouterLink],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
-  animations: [
-    trigger('translateInOut', [
-      state('in', style({ transform: 'translateY(0)' })),
-      transition('void => *', [
-        style({ transform: 'translateY(100%)' }),
-        animate(1000)
-      ]),
-      transition('* => void', [
-        animate(1000, style({ transform: 'translateY(100%)' }))
-      ])
-    ])]
+  styleUrls: ['./home.component.scss', './animation.css']
 })
 export class HomeComponent {
 

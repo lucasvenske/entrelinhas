@@ -1,0 +1,281 @@
+.first {
+    animation-timeline: scroll(root block);
+    animation-name: first;
+    animation-range: entry exit;
+}
+
+@keyframes first {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(200px);
+    }
+}
+
+.second {
+    animation-timeline: scroll(root block);
+    animation-name: second;
+    animation-range: entry exit;
+}
+
+@keyframes second {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(350px);
+    }
+}
+
+.third {
+    animation-timeline: scroll(root block);
+    animation-name: third;
+    animation-range: entry exit;
+}
+
+@keyframes third {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(400px);
+    }
+}
+
+.fourth {
+    animation-timeline: scroll(root block);
+    animation-name: fourth;
+    animation-range: entry exit;
+}
+
+@keyframes fourth {
+    from {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(200px) rotate(4deg);
+    }
+
+    to {
+        transform: translateY(500px) rotate(12deg);
+    }
+}
+
+.fifth {
+    animation-timeline: scroll(root block);
+    animation-name: fifth;
+    animation-range: entry exit;
+}
+
+@keyframes fifth {
+    from {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(250px) rotate(6deg);
+    }
+
+    to {
+        transform: translateY(600px) rotate(12deg);
+    }
+}
+
+.sixth {
+    animation-timeline: scroll(root block);
+    animation-name: sixth;
+    animation-range: entry exit;
+}
+
+@keyframes sixth {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(1000px);
+    }
+}
+
+.eigth {
+    animation-timeline: scroll(root block);
+    animation-name: eigth;
+    animation-range: entry exit;
+}
+
+@keyframes eigth {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(1100px);
+    }
+}
+
+.nineth {
+    animation-timeline: scroll(root block);
+    animation-name: nineth;
+    animation-range: entry exit;
+}
+
+@keyframes nineth {
+    from {
+        transform: translateY(0) rotate(0);
+    }
+
+    50% {
+        transform: translateY(500px) rotate(-5deg);
+    }
+
+    to {
+        transform: translateY(1200px) rotate(-30deg);
+    }
+}
+
+
+.ten {
+    animation-timeline: scroll(root block);
+    animation-name: ten;
+}
+
+@keyframes ten {
+    from {
+        transform: translateY(0) rotate(0);
+    }
+
+    40% {
+        transform: translateY(680px) rotate(20deg);
+    }
+
+    50% {
+        transform: translateY(800px) rotate(28deg);
+    }
+
+    to {
+        transform: translateY(1900px) rotate(45deg);
+    }
+}
+
+
+.eleven {
+    animation-timeline: scroll(root block);
+    animation-name: eleven;
+    animation-range: entry exit;
+}
+
+@keyframes eleven {
+    from {
+        transform: translateY(0) rotate(0);
+    }
+
+    40% {
+        transform: translateY(800px) rotate(25deg);
+    }
+
+    50% {
+        transform: translateY(1000px) rotate(35deg);
+    }
+
+    to {
+        transform: translateY(2000px) rotate(45deg);
+    }
+}
+
+
+.twelve {
+    animation-timeline: scroll(root block);
+    animation-name: twelve;
+    animation-range: entry exit;
+}
+
+@keyframes twelve {
+    from {
+        transform: translateY(0) rotate(0);
+    }
+
+    40% {
+        transform: translateY(1000px) rotate(32deg);
+    }
+
+    50% {
+        transform: translateY(1500px) rotate(38deg);
+    }
+
+    to {
+        transform: translateY(2000px) rotate(45deg);
+    }
+}
+
+
+.thirten {
+    animation-timeline: scroll(root block);
+    animation-name: thirten;
+    animation-range: entry -10% contain 40%;
+}
+
+@keyframes thirten {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(30px);
+    }
+}
+
+
+.fourten {
+    animation-timeline: scroll(root block);
+    animation-name: fourten;
+    animation-range: entry -10% contain 40%;
+}
+
+@keyframes fourten {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(30px);
+    }
+}
+
+
+.fiften {
+    animation-timeline: scroll(root block);
+    animation-name: fiften;
+    animation-range: entry -10% contain 40%;
+}
+
+@keyframes fiften {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(600px);
+    }
+}
+
+
+.sixten {
+    animation-timeline: scroll(root block);
+    animation-name: sixten;
+    animation-range: entry -10% contain 40%;
+}
+
+@keyframes sixten {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(800px);
+    }
+}
