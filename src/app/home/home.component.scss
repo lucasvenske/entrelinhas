@@ -20,6 +20,34 @@
     }
 }
 
+.br.overlay-vinil-listrado {
+    position: absolute;
+    top: -50%;
+    left: -51%;
+    z-index: 1;
+}
+
+.br.overlay-vinil-liso {
+    position: absolute;
+    top: -50%;
+    z-index: 2;
+    left: -78%;
+}
+
+.pt.overlay-vinil-listrado {
+    position: absolute;
+    top: -50%;
+    right: -51%;
+    z-index: 1;
+}
+
+.pt.overlay-vinil-liso {
+    position: absolute;
+    top: -50%;
+    z-index: 2;
+    right: -78%;
+}
+
 
 .rotate-8 {
     transform: rotate(-6deg);

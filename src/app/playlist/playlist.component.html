@@ -5,8 +5,19 @@
             [class.border-color-green]="pagina == 3 || pagina == 4"
             [class.border-color-blue]="pagina == 1 || pagina == 2">
             VOLTAR</p>
+        @if (pagina == 1) {
+        <img class="absolute-img-vinil" src="../../assets/img/vinil-azul-listrado.png" alt="">
+
+        }@else if (pagina == 2) {
+
+        <img class="absolute-img-vinil" src="../../assets/img/vinil-azul-liso.png" alt="">
+        }@else if (pagina == 3) {
 
         <img class="absolute-img-vinil" src="../../assets/img/vinil-verde-listrado.png" alt="">
+        }@else if (pagina == 4) {
+
+        <img class="absolute-img-vinil" src="../../assets/img/vinil-verde-liso.png" alt="">
+        }
     </div>
     <div class="container-sm mb-8">
         @if (pagina == 1 || pagina == 3) {

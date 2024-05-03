@@ -71,8 +71,8 @@
         </div>
     </section>
 
-    <section class="mt-40">
-        <div class="container-sm">
+    <section class="mt-40 ">
+        <div class="container-sm position-relative">
             <h1 class="ff-az fs-a1 fn-color-blue mb-4">MÚSICA PORTUGUESA</h1>
             <div class="ff-az fn-color-blue border-top border-bottom bd-theme border-color-blue pt-3">
                 <p class="border-top border-bottom bd-theme border-color-blue">
@@ -100,11 +100,17 @@
                     José Afonso
                 </p>
             </div>
+            <div class="overlay-vinil-liso pt pointer" [routerLink]="['/playlist-nao-censurada-portugal']">
+                <img src="../../assets/img/vinil-azul-liso.png" alt="">
+            </div>
+            <div class="overlay-vinil-listrado pt pointer" [routerLink]="['/playlist-censurada-portugal']">
+                <img src="../../assets/img/vinil-azul-listrado.png" alt="">
+            </div>
         </div>
     </section>
 
-    <section class="mt-40">
-        <div class="container-sm text-end">
+    <section class="mt-60 ">
+        <div class="container-sm text-end position-relative">
             <h1 class="ff-az fs-a1 fn-color-green mb-4">MÚSICA BRASILEIRA</h1>
             <div class="ff-az fn-color-green border-top border-bottom bd-theme border-color-green pt-3">
                 <p class="border-top border-bottom bd-theme border-color-green">
@@ -129,57 +135,58 @@
                     Geraldo Vandré
                 </p>
             </div>
+            <div class="overlay-vinil-liso br pointer" [routerLink]="['/playlist-nao-censurada-brasil']">
+                <img src="../../assets/img/vinil-verde-liso.png" alt="">
+            </div>
+            <div class="overlay-vinil-listrado br pointer" [routerLink]="['/playlist-censurada-brasil']">
+                <img src="../../assets/img/vinil-verde-listrado.png" alt="">
+            </div>
         </div>
     </section>
 
-    <section class="mt-40">
+    <section class="mt-60">
         <div class="container-sm">
             <h1 class="ff-az fs-a1 fn-color mb-4">LOJA</h1>
             <div class="row">
                 <div class="col-12 mb-5">
-                    <div class="border-top bd-theme border-color py-2">
-                        <img class="w-100 mh-550 object-fit-cover"
-                            src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg" alt="">
+                    <div class="border-top bd-theme border-color py-2 px-5">
+                        <img class="w-100 mh-550 object-fit-cover" src="../../assets/img/loja-1.png" alt="">
                     </div>
                     <p class="ff-az fn-color fs-4 text-center border-top bd-theme border-color pt-3 border-15">KIT
                         EDIÇÃO
                         ESPECIAL<br>ENTRELINHAS</p>
                 </div>
                 <div class="col-6 mb-5">
-                    <div class="border-top bd-theme border-color py-2">
-                        <img class="w-100 mh-550 object-fit-cover"
-                            src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg" alt="">
+                    <div class="border-top bd-theme border-color py-2 px-5">
+                        <img class="w-100 mh-550 object-fit-cover" src="../../assets/img/loja-2.png" alt="">
                     </div>
                     <p class="ff-az fn-color fs-4 text-center border-top bd-theme border-color pt-3 border-15">DUPLA
                         LP<br>
                         ENTRELINHAS PT</p>
                 </div>
                 <div class="col-6 mb-5">
-                    <div class="border-top bd-theme border-color py-2">
-                        <img class="w-100 mh-550 object-fit-cover"
-                            src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg" alt="">
+                    <div class="border-top bd-theme border-color py-2 px-5">
+                        <img class="w-100 mh-550 object-fit-cover" src="../../assets/img/loja-3.png" alt="">
                     </div>
                     <p class="ff-az fn-color fs-4 text-center border-top bd-theme border-color pt-3 border-15">DUPLA
                         LP<br>
                         ENTRELINHAS BR</p>
                 </div>
                 <div class="col-6 mb-5">
-                    <div class="border-top bd-theme border-color py-2">
-                        <img class="w-100 mh-550 object-fit-cover"
-                            src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg" alt="">
+                    <div class="border-top bd-theme border-color py-2 px-5">
+                        <img class="w-100 mh-550 object-fit-cover" src="../../assets/img/loja-4.png" alt="">
                     </div>
                     <p class="ff-az fn-color fs-4 text-center border-top bd-theme border-color pt-3 border-15">
                         ENTRELINHAS<br>
-                        PT T-SHIRT</p>
+                        T-SHIRT</p>
                 </div>
                 <div class="col-6 mb-5">
-                    <div class="border-top bd-theme border-color py-2">
-                        <img class="w-100 mh-550 object-fit-cover"
-                            src="https://dreamsthirdeyeinnovativ.in/images/blog/1.jpg" alt="">
+                    <div class="border-top bd-theme border-color py-2 px-5">
+                        <img class="w-100 mh-550 object-fit-cover" src="../../assets/img/loja-6.png" alt="">
                     </div>
                     <p class="ff-az fn-color fs-4 text-center border-top bd-theme border-color pt-3 border-15">
                         ENTRELINHAS<br>
-                        BR T-SHIRT</p>
+                        CARTAZ</p>
                 </div>
             </div>
         </div>

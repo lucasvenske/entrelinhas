@@ -33,6 +33,10 @@ main {
     margin-top: 40rem;
 }
 
+.mt-60 {
+    margin-top: 60rem;
+}
+
 .fs-a1 {
     font-size: 4rem;
 }
@@ -43,6 +47,10 @@ main {
 
 .mh-550 {
     max-height: 550px;
+}
+
+.mh-650 {
+    max-height: 650px;
 }
 
 .h-600 {
@@ -101,7 +109,7 @@ body {
 }
 
 body {
-    background-color: $dark;
+    overflow-x: hidden;
 }
 
 html,
