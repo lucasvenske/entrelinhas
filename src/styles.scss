@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: bl;
+    src: url('.//assets/fonts/BLASTIMOSANS.ttf') format("truetype");
+}
+
+@import "bootstrap";
+
+@import 'bootstrap/scss/bootstrap';
+
+@import "./assets/theme";
+
+.bg-color {
+    background-color: var(--color) !important;
+}
+
+.bg-secondary-color {
+    background-color: var(--secondary-color) !important;
+}
+
+.bd-theme.border-color {
+    border-top-color: var(--color) !important;
+    border-bottom-color: var(--color) !important;
+    border-left-color: var(--color) !important;
+    border-right-color: var(--color) !important;
+}
+
+.bd-theme.border-secondary-color {
+    border-top-color: var(--secondary-color) !important;
+    border-bottom-color: var(--secondary-color) !important;
+    border-left-color: var(--secondary-color) !important;
+    border-right-color: var(--secondary-color) !important;
+}
+
+
+.fn-color {
+    color: var(--color) !important;
+}
+
+
+.fn-secondary-color {
+    color: var(--secondary-color) !important;
+}
+
+
+.ff-bs {
+    font-family: 'BLASTIMO SANS' !important;
+}
+
+.ff-az {
+    font-family: "Azeret Mono", monospace !important;
+}

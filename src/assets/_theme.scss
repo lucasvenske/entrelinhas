@@ -1,0 +1,168 @@
+[data-theme="light"] {
+    --color: #ffffff;
+    --secondary-color: #000000;
+}
+
+[data-theme="dark"] {
+    --color: #000000;
+    --secondary-color: #ffffff;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.mb-8 {
+    margin-bottom: 8rem;
+}
+
+.mt-20 {
+    margin-top: 20rem;
+}
+
+.mt-40 {
+    margin-top: 40rem;
+}
+
+.fs-a1 {
+    font-size: 3rem;
+}
+
+.h-fit-content {
+    height: fit-content;
+}
+
+.mh-550 {
+    max-height: 550px;
+}
+
+.bd-theme.border-15 {
+    border-width: 20px !important;
+}
+
+.line {
+    height: 20px;
+}
+
+//Reset Css
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: $dark;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}

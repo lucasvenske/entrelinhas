@@ -1,0 +1,31 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.main-title {
+    font-size: 28rem;
+}
+
+.animation-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+
+    .first-block {
+        height: 50vh;
+    }
+}
+
+
+.rotate-8 {
+    transform: rotate(-6deg);
+}
+
+.header-item {
+    border-bottom: 15px solid var(--secondary-color);
+    font-weight: 500;
+}
