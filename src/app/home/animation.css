@@ -1,283 +1,169 @@
+.line {
+    transform: translateY(0px) rotate(0deg);
+    animation-timeline: view(block);
+    animation-fill-mode: both;
+}
+
 .first {
-    animation-timeline: scroll(root block);
+    animation-range: 300px;
     animation-name: first;
-    animation-range: entry exit;
 }
 
 @keyframes first {
-    from {
-        transform: translateY(0);
-    }
-
     to {
-        transform: translateY(200px);
+        transform: translateY(2px);
     }
 }
 
 .second {
-    animation-timeline: scroll(root block);
+    animation-range: 300px;
     animation-name: second;
-    animation-range: entry exit;
 }
 
 @keyframes second {
-    from {
-        transform: translateY(0);
-    }
-
     to {
-        transform: translateY(350px);
+        transform: translateY(4px);
     }
 }
 
 .third {
-    animation-timeline: scroll(root block);
     animation-name: third;
-    animation-range: entry exit;
 }
 
 @keyframes third {
-    from {
-        transform: translateY(0);
+    to {
+        transform: translateY(6px);
     }
+}
 
+.fourth {
+    animation-name: fourth;
+}
+
+@keyframes fourth {
+    to {
+        transform: translateY(12px) rotate(1deg);
+    }
+}
+
+.fifth {
+    animation-name: fifth;
+    animation-range: 800px contain 2500px;
+}
+
+@keyframes fifth {
     to {
         transform: translateY(400px);
     }
 }
 
-.fourth {
-    animation-timeline: scroll(root block);
-    animation-name: fourth;
-    animation-range: entry exit;
-}
-
-@keyframes fourth {
-    from {
-        transform: translateY(0) rotate(0deg);
-    }
-
-    50% {
-        transform: translateY(200px) rotate(4deg);
-    }
-
-    to {
-        transform: translateY(500px) rotate(12deg);
-    }
-}
-
-.fifth {
-    animation-timeline: scroll(root block);
-    animation-name: fifth;
-    animation-range: entry exit;
-}
-
-@keyframes fifth {
-    from {
-        transform: translateY(0) rotate(0deg);
-    }
-
-    50% {
-        transform: translateY(250px) rotate(6deg);
-    }
-
-    to {
-        transform: translateY(600px) rotate(12deg);
-    }
-}
-
 .sixth {
-    animation-timeline: scroll(root block);
     animation-name: sixth;
-    animation-range: entry exit;
+    animation-range: 750px contain 2500px;
 }
 
 @keyframes sixth {
-    from {
-        transform: translateY(0);
-    }
-
     to {
-        transform: translateY(1000px);
+        transform: translateY(400px);
     }
 }
 
 .eigth {
-    animation-timeline: scroll(root block);
     animation-name: eigth;
-    animation-range: entry exit;
+    animation-range: 700px contain 2500px;
 }
 
 @keyframes eigth {
-    from {
-        transform: translateY(0);
-    }
-
     to {
-        transform: translateY(1100px);
+        transform: translateY(400px);
     }
 }
 
 .nineth {
-    animation-timeline: scroll(root block);
     animation-name: nineth;
-    animation-range: entry exit;
+    animation-range: 600px contain 2500px;
 }
 
 @keyframes nineth {
-    from {
-        transform: translateY(0) rotate(0);
-    }
-
-    50% {
-        transform: translateY(500px) rotate(-5deg);
-    }
-
     to {
-        transform: translateY(1200px) rotate(-30deg);
+        transform: translateY(595px) rotate(17deg);
     }
 }
 
-
 .ten {
-    animation-timeline: scroll(root block);
     animation-name: ten;
+    animation-range: 550px contain 2500px;
 }
 
 @keyframes ten {
-    from {
-        transform: translateY(0) rotate(0);
-    }
-
-    40% {
-        transform: translateY(680px) rotate(20deg);
-    }
-
-    50% {
-        transform: translateY(800px) rotate(28deg);
-    }
-
     to {
-        transform: translateY(1900px) rotate(45deg);
+        transform: translateY(600px) rotate(17deg);
     }
 }
 
-
 .eleven {
-    animation-timeline: scroll(root block);
     animation-name: eleven;
-    animation-range: entry exit;
+    animation-range: 500px contain 2500px;
 }
 
 @keyframes eleven {
-    from {
-        transform: translateY(0) rotate(0);
-    }
-
-    40% {
-        transform: translateY(800px) rotate(25deg);
-    }
-
-    50% {
-        transform: translateY(1000px) rotate(35deg);
-    }
-
     to {
-        transform: translateY(2000px) rotate(45deg);
+        transform: translateY(630px) rotate(15deg);
     }
 }
 
-
 .twelve {
-    animation-timeline: scroll(root block);
     animation-name: twelve;
-    animation-range: entry exit;
+    animation-range: 400px contain 2500px;
 }
 
 @keyframes twelve {
-    from {
-        transform: translateY(0) rotate(0);
-    }
-
-    40% {
-        transform: translateY(1000px) rotate(32deg);
-    }
-
-    50% {
-        transform: translateY(1500px) rotate(38deg);
-    }
-
     to {
-        transform: translateY(2000px) rotate(45deg);
+        transform: translateY(840px) rotate(-5deg);
     }
 }
 
-
 .thirten {
-    animation-timeline: scroll(root block);
+    animation-range: 350px contain 2500px;
     animation-name: thirten;
-    animation-range: entry -10% contain 40%;
 }
 
 @keyframes thirten {
-    from {
-        transform: translateY(0);
-    }
-
     to {
-        transform: translateY(30px);
+        transform: translateY(900px) rotate(0deg);
     }
 }
 
-
 .fourten {
-    animation-timeline: scroll(root block);
+    animation-range: 300px contain 2500px;
     animation-name: fourten;
-    animation-range: entry -10% contain 40%;
 }
 
 @keyframes fourten {
-    from {
-        transform: translateY(0);
-    }
-
     to {
-        transform: translateY(30px);
+        transform: translateY(1000px) rotate(8deg);
     }
 }
 
 
 .fiften {
-    animation-timeline: scroll(root block);
     animation-name: fiften;
-    animation-range: entry -10% contain 40%;
+    animation-range: 200px contain 2500px;
 }
 
 @keyframes fiften {
-    from {
-        transform: translateY(0);
-    }
-
     to {
-        transform: translateY(600px);
+        transform: translateY(1150px) rotate(20deg);
     }
 }
 
-
 .sixten {
-    animation-timeline: scroll(root block);
     animation-name: sixten;
-    animation-range: entry -10% contain 40%;
+    animation-range: 100px contain 2500px;
 }
 
 @keyframes sixten {
-    from {
-        transform: translateY(0);
-    }
-
     to {
-        transform: translateY(800px);
+        transform: translateY(1300px) rotate(28deg);
     }
 }
-
-.vinil-animation {}
