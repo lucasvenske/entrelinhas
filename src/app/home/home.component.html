@@ -71,80 +71,108 @@
         </div>
     </section>
 
-    <section class="mt-40 ">
-        <div class="container-sm position-relative line-static-right">
+    <section class="mt-40 position-relative">
+        <div class="overlay-vinil-liso pt pointer vinil-animation" [routerLink]="['/playlist-nao-censurada-portugal']">
+            <img src="../../assets/img/vinil-azul-liso.png" alt="" (mouseover)="ptlistrado = !ptlistrado"
+                (mouseleave)="ptlistrado = !ptlistrado">
+        </div>
+        <div class="overlay-vinil-listrado pt pointer vinil-animation" [routerLink]="['/playlist-censurada-portugal']">
+            <img src="../../assets/img/vinil-azul-listrado.png" alt="" (mouseover)="ptliso = !ptliso"
+                (mouseleave)="ptliso = !ptliso">
+        </div>
+        <div class="container-sm line-static-right position-relative">
             <h1 class="ff-az fs-a1 fn-color-blue mb-4">MÚSICA PORTUGUESA</h1>
             <div class="ff-az fn-color-blue border-top border-bottom bd-theme border-color-blue pt-3">
-                <p class="border-top border-bottom bd-theme border-color-blue">
-                    Hugo Maia de Loureiro
+                <p class="border-top border-bottom bd-theme border-color-blue ts-1" [class.fn-color]="ptliso">
+                    Playlist Músicas Não Censuradas
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-blue">
-                    Paco Bandeira
+                <p class="border-top border-bottom bd-theme border-color-blue fn-secondary-color">
+                    -
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-blue">
-                    Tordo
+                <p class="border-top border-bottom bd-theme border-color-blue fn-secondary-color">
+                    -
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-blue">
-                    Simone de Oliveira
+                <p class="border-top border-bottom bd-theme border-color-blue fn-secondary-color">
+                    -
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-blue">
-                    Vieira da Silva
+                <p class="border-top border-bottom bd-theme border-color-blue fn-secondary-color">
+                    -
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-blue">
-                    António Gedeão e Manuel Freire
+                <p class="border-top border-bottom bd-theme border-color-blue fn-secondary-color">
+                    -
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-blue">
-                    Sergio Godinho
+                <p class="border-top border-bottom bd-theme border-color-blue ts-1" [class.fn-color]="ptlistrado">
+                    Playlist Músicas Censuradas
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-blue">
-                    José Afonso
+                <p class="border-top border-bottom bd-theme border-color-blue fn-secondary-color">
+                    -
                 </p>
-            </div>
-            <div class="overlay-vinil-liso pt pointer vinil-animation"
-                [routerLink]="['/playlist-nao-censurada-portugal']">
-                <img src="../../assets/img/vinil-azul-liso.png" alt="">
-            </div>
-            <div class="overlay-vinil-listrado pt pointer vinil-animation"
-                [routerLink]="['/playlist-censurada-portugal']">
-                <img src="../../assets/img/vinil-azul-listrado.png" alt="">
+                <p class="border-top border-bottom bd-theme border-color-blue fn-secondary-color">
+                    -
+                </p>
+                <p class="border-top border-bottom bd-theme border-color-blue fn-secondary-color">
+                    -
+                </p>
+                <p class="border-top border-bottom bd-theme border-color-blue fn-secondary-color">
+                    -
+                </p>
+                <p class="border-top border-bottom bd-theme border-color-blue fn-secondary-color">
+                    -
+                </p>
             </div>
         </div>
     </section>
 
-    <section class="mt-60 ">
-        <div class="container-sm text-end position-relative line-static-left">
+    <section class="mt-60 position-relative">
+        <div class="overlay-vinil-liso br pointer vinil-animation" [routerLink]="['/playlist-nao-censurada-brasil']">
+            <img src="../../assets/img/vinil-verde-liso.png" alt="" (mouseover)="brlistrado = !brlistrado"
+                (mouseleave)="brlistrado = !brlistrado">
+        </div>
+        <div class="overlay-vinil-listrado br pointer vinil-animation" [routerLink]="['/playlist-censurada-brasil']">
+            <img src="../../assets/img/vinil-verde-listrado.png" alt="" (mouseover)="brliso = !brliso"
+                (mouseleave)="brliso = !brliso">
+        </div>
+        <div class="container-sm text-end line-static-left position-relative">
             <h1 class="ff-az fs-a1 fn-color-green mb-4">MÚSICA BRASILEIRA</h1>
             <div class="ff-az fn-color-green border-top border-bottom bd-theme border-color-green pt-3">
-                <p class="border-top border-bottom bd-theme border-color-green">
-                    Chico Buarque
+                <p class="border-top border-bottom bd-theme border-color-green ts-1" [class.fn-color]="brliso">
+                    Playlist Músicas Não Censuradas
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-green">
-                    Nara Leão
+                <p class="border-top border-bottom bd-theme border-color-green fn-secondary-color">
+                    -
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-green">
-                    Raul Seixas
+                <p class="border-top border-bottom bd-theme border-color-green fn-secondary-color">
+                    -
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-green">
-                    Elis Regina
+                <p class="border-top border-bottom bd-theme border-color-green fn-secondary-color">
+                    -
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-green">
-                    Rita Lee e Roberto de Carvalho
+                <p class="border-top border-bottom bd-theme border-color-green fn-secondary-color">
+                    -
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-green">
-                    Caetano Veloso
+                <p class="border-top border-bottom bd-theme border-color-green fn-secondary-color">
+                    -
                 </p>
-                <p class="border-top border-bottom bd-theme border-color-green">
-                    Geraldo Vandré
+                <p class="border-top border-bottom bd-theme border-color-green ts-1" [class.fn-color]="brlistrado">
+                    Playlist Músicas Censuradas
+                </p>
+                <p class="border-top border-bottom bd-theme border-color-green fn-secondary-color">
+                    -
+                </p>
+                <p class="border-top border-bottom bd-theme border-color-green fn-secondary-color">
+                    -
+                </p>
+                <p class="border-top border-bottom bd-theme border-color-green fn-secondary-color">
+                    -
+                </p>
+                <p class="border-top border-bottom bd-theme border-color-green fn-secondary-color">
+                    -
+                </p>
+                <p class="border-top border-bottom bd-theme border-color-green fn-secondary-color">
+                    -
                 </p>
             </div>
-            <div class="overlay-vinil-liso br pointer vinil-animation"
-                [routerLink]="['/playlist-nao-censurada-brasil']">
-                <img src="../../assets/img/vinil-verde-liso.png" alt="">
-            </div>
-            <div class="overlay-vinil-listrado br pointer vinil-animation"
-                [routerLink]="['/playlist-censurada-brasil']">
-                <img src="../../assets/img/vinil-verde-listrado.png" alt="">
-            </div>
+
         </div>
     </section>
 
