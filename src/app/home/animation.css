@@ -167,3 +167,45 @@
         transform: translateY(1300px) rotate(28deg);
     }
 }
+
+.pt.overlay-vinil-listrado {
+    animation-name: vinil;
+    transform: translateX(600px) rotate(90deg);
+    animation-timeline: view(block);
+    animation-range: 20% 55%;
+    animation-fill-mode: both;
+
+}
+
+.pt.overlay-vinil-liso {
+    animation-name: vinil;
+    transform: translateX(600px) rotate(90deg);
+    animation-timeline: view(block);
+    animation-range: 30% 55%;
+    animation-fill-mode: both;
+
+}
+
+.br.overlay-vinil-listrado {
+    animation-name: vinil;
+    transform: translateX(-600px) rotate(-90deg);
+    animation-timeline: view(block);
+    animation-range: 20% 55%;
+    animation-fill-mode: both;
+
+}
+
+.br.overlay-vinil-liso {
+    animation-name: vinil;
+    transform: translateX(-600px) rotate(-90deg);
+    animation-timeline: view(block);
+    animation-range: 30% 55%;
+    animation-fill-mode: both;
+
+}
+
+@keyframes vinil {
+    to {
+        transform: translateY(0px) rotate(0deg);
+    }
+}

@@ -1,10 +1,12 @@
-<footer class="mt-20 container-sm">
+<footer [className]="marginClass + ' container-sm'">
+    @if (showButtons) {
     <div class="d-flex justify-content-between mb-5 ff-az fn-color fw-medium">
         <h1 class="fs-5">FOLLOW US</h1>
         <h1 class="fs-5">SUBSCRIBE TO <br> NEWS LETTER</h1>
         <h1 class="fs-5">A NOSSA PLAYLIST <br> NO SPOTIFY</h1>
         <h1 class="fs-5">CONTACT US</h1>
     </div>
+    }
     <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
     <div class="line bg-color border-top border-bottom bd-theme border-secondary-color"></div>
 </footer>

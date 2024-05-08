@@ -24,8 +24,16 @@ interface ParallaxElement {
 export class HomeComponent {
 
   public isLightTheme = true;
+  public brliso = false;
+  public ptliso = false;
+  public ptlistrado = false;
+  public brlistrado = false;
 
   constructor() { }
+
+  teste() {
+    console.log('1')
+  }
 
 
   onThemeSwitchChange() {
